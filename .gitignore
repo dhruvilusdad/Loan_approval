@@ -1,0 +1,21 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets and local Streamlit configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local caches, logs, and operating-system files
+.streamlit/cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
